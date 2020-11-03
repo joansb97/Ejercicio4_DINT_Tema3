@@ -8,8 +8,8 @@
         Title="MainWindow" Height="450" Width="800" MinHeight="750" MinWidth="750">
     <DockPanel>
         <DockPanel DockPanel.Dock="Bottom" Background="LightBlue" LastChildFill="False" Height="50" Margin="10">
-            <TextBlock DockPanel.Dock="Left" Text="Nº de imágenes: 10" FontSize="20"/>
-            <TextBlock DockPanel.Dock="Right" Text="Diseñado por Joan Seva" FontSize="20"/>
+            <TextBlock DockPanel.Dock="Left" Text="Nº de imágenes: 10" FontSize="20" FontFamily="Rubik"/>
+            <TextBlock DockPanel.Dock="Right" Text="Diseñado por Joan Seva" FontSize="20" FontFamily="Rubik"/>
         </DockPanel>
         <Border DockPanel.Dock="Right" BorderThickness="2" BorderBrush="Black" CornerRadius="2" Margin="10">
             <DockPanel Background="LightGreen" LastChildFill="False" Width="100">
@@ -22,15 +22,15 @@
         </Border>
         <DockPanel>
             <TextBlock DockPanel.Dock="Top" Text="Visor de Imagenes" HorizontalAlignment="Center" FontSize="40"/>
-            <WrapPanel HorizontalAlignment="Center">
-                <Image Source="episodioIV.jpg" Height="300" Width="150"/>
-                <Image Source="episodioIV.jpg" Height="300" Width="150"/>
-                <Image Source="episodioIV.jpg" Height="300" Width="150"/>
-                <Image Source="episodioIV.jpg" Height="300" Width="150"/>
-                <Image Source="episodioIV.jpg" Height="300" Width="150"/>
-                <Image Source="episodioIV.jpg" Height="300" Width="150"/>
-                <Image Source="episodioIV.jpg" Height="300" Width="150"/>
-                <Image Source="episodioIV.jpg" Height="300" Width="150"/>
+            <WrapPanel>
+                <Image Source="episodioIV.jpg" Width="150"/>
+                <Image Source="episodioIV.jpg" Width="150"/>
+                <Image Source="episodioIV.jpg" Width="150"/>
+                <Image Source="episodioIV.jpg" Width="150"/>
+                <Image Source="episodioIV.jpg" Width="150"/>
+                <Image Source="episodioIV.jpg" Width="150"/>
+                <Image Source="episodioIV.jpg" Width="150"/>
+                <Image Source="episodioIV.jpg" Width="150"/>
             </WrapPanel>
         </DockPanel>
     </DockPanel>
